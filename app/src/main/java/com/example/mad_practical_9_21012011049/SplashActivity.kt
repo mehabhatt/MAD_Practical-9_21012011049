@@ -5,25 +5,26 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class MainActivity : AppCompatActivity() {
-    lateinit var  alarmanimation : AnimationDrawable
+class SplashActivity : AppCompatActivity() {
+    lateinit var  logoanimation : AnimationDrawable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val image: ImageView = findViewById(R.id.imageView)
-        image.setBackgroundResource(R.drawable.alarm_animation_list)
-        alarmanimation=image.background as AnimationDrawable
+        setContentView(R.layout.activity_splash)
+        val image: ImageView = findViewById(R.id.uvpce_logo)
+        image.setBackgroundResource(R.drawable.uvpce_animation_list)
+        logoanimation=image.background as AnimationDrawable
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus) {
-            alarmanimation.start()
+            logoanimation.start()
         }
         else
         {
-           alarmanimation.stop()
+          logoanimation.stop()
         }
 
     }
+
 }

@@ -6,4 +6,6 @@
     </style>
 
     <style name="Theme.MAD_Practical9_21012011049" parent="Base.Theme.MAD_Practical9_21012011049" />
+    <!-- Primary brand color. -->
+    <item name="colorPrimary" type="color">@color/purple</item>
 </resources>
