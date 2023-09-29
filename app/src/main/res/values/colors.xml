@@ -2,10 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#32A1EB</color>
+    <color name="blue">#FF84ADFF</color>
     <color name="purple">#FF6200EE</color>
-    <color name="light_teal">#A3039DDA</color>
-    <color name="pink">#4FE91E63</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="pink">#FFDD8BD8</color>
 </resources>
