@@ -26,5 +26,8 @@ class SplashActivity : AppCompatActivity() {
         }
 
     }
+    //override fun onAnimationEnd() {
+        //Intent(this,MainActivity::class.java).also { startActivity(it) }
 
-}
+    }
+
